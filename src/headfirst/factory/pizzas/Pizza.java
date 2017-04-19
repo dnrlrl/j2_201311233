@@ -5,6 +5,9 @@ public class Pizza{
   String dough;
   String sauce;
   ArrayList<String> toppings=new ArrayList<String>();
+  public String getName(){
+    return name;
+  }
   public void prepare(){
     System.out.println("Preparing "+ name);
   }
@@ -17,4 +20,5 @@ public class Pizza{
   public void box(){
     System.out.println("Boxing "+ name);
   }
+  //public String toString(){
 }
